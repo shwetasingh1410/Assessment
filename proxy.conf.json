@@ -1,0 +1,10 @@
+{
+    "/search/*": {
+      "target": "https://toronto.craigslist.org",
+      "secure": false,
+	  "pathRewrite": {
+      "^/search": ""
+    },
+	"logLevel": "debug"
+    }
+  }
